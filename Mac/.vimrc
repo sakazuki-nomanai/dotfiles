@@ -62,6 +62,12 @@ set hlsearch
 set history=1000
 " yでコピーした時にクリップボードに入る
 set clipboard+=unnamed
+" バックアップファイルの作成
+set backup
+" バックアップディレクトリの設定
+set backupdir=.,~/tmp,~/
+" バックアップファイル名のプレフィックス設定
+set backupext=.back
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 "カラースキームをmolokaiに設定
